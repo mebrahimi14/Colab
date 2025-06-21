@@ -1,3 +1,4 @@
 jupyter_book
 jupyter
 jupyter_contrib_nbextensions
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
