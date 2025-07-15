@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-  gem 'github-pages'
-  gem 'jekyll-feed', '~> 0.6'
+  gem 'github-pages', '>= 224'
+  gem 'jekyll-feed', '~> 0.12', '>= 0.12.0'
 
   # Textbook plugins
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-scholar'
+  gem 'jekyll-redirect-from', '>= 0.15.0'
+  gem 'jekyll-scholar', '>= 5.14.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
