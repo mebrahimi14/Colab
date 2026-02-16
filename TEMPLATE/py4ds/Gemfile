@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-  gem 'github-pages'
+  gem 'github-pages', '>= 194'
   gem 'jekyll-feed', '~> 0.6'
 
   # Textbook plugins
